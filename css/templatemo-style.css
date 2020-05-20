@@ -148,7 +148,7 @@ html {
 }
 
 .tm-btn-success {
-  background-color: #319966;
+  background-color: #998f31;
   color: white;
 }
 
@@ -195,7 +195,7 @@ html {
 body {
   font-family: 'Open Sans', Arial, sans-serif;
   font-size: 17px;
-  background-color: #ccc;
+  background-color: #e8e4e5;
   overflow-x: hidden;
 }
 
@@ -211,8 +211,8 @@ p, address {
 /* Set width and height in JS */
 .placeholder {
   width: 100%;
-  min-height: 460px;
-  background-color: #556E5B;
+  min-height: 220;
+  background-color: #e8e4e5;
 }
 
 .placeholder-2 {
@@ -283,7 +283,8 @@ p, address {
 
 .tm-nav {
   text-align: right;
-  margin-top: 30px;
+  margin-top: 20px;
+  margin-left: 600px;
 }
 
 .tm-nav-ul {
