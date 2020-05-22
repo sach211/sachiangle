@@ -51,6 +51,7 @@ html {
 .col-lg-3,
 .col-lg-4,
 .col-lg-6,
+.col-lg-12,
 .col-md-4,
 .col-md-6,
 .col-sm-6, 
@@ -381,6 +382,7 @@ p, address {
   }
   
   .tm-container-inner {
+    margin-top: 80px;
     max-width: 1120px;
   }
   
@@ -487,11 +489,11 @@ p, address {
 }
 
 /* About */
-.tm-persons {
+.tm-projects {
   margin-bottom: 20px;
 }
 
-.tm-person {
+.tm-project {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -500,36 +502,36 @@ p, address {
 }
 
 @media (min-width: 420px) {
-  .tm-person {
+  .tm-project {
     flex-direction: row;
   }
 }
 
-.tm-person-description {
+.tm-project-description {
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.tm-person-name {
+.tm-project-name {
   font-size: 1.6rem;
   font-weight: 300;
-  color: #09C;
+  color: black;
   margin-bottom: 5px;
   margin-top: 15px;
 }
 
 @media (min-width: 420px) {
-  .tm-person-name {
+  .tm-project-name {
     margin-top: 0;
   }
 }
 
-.tm-person-title {
-  color: #C39;
+.tm-project-title {
+  color: rgb(27,73,132);
   margin-bottom: 20px;
 }
 
-.tm-person-about {
+.tm-project-about {
   margin-bottom: 20px;
 }
 
