@@ -28,7 +28,7 @@ html {
 
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 2400px;
   margin-right: auto;
   margin-left: auto;
 }
@@ -225,7 +225,7 @@ p, address {
 }
 
 .parallax-window {
-  min-height: 460px;
+  min-height: 520px;
   background: transparent;
   position: relative;
 }
@@ -291,7 +291,12 @@ p, address {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  margin-left: 600px;
+  margin-left: 800px;
+}
+
+.tm-proj-ul {
+  display: flex;
+  width: 100%;
 }
 
 .tm-nav-li {
@@ -300,6 +305,14 @@ p, address {
   margin-bottom: 0;
   padding-right: 25px;
   padding-left: 25px;
+}
+
+.tm-proj-li {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding-right: 100px;
+  padding-left: 0px;
 }
 
 @media (max-width: 991px) {
@@ -510,6 +523,7 @@ p, address {
 .tm-project-description {
   padding-left: 20px;
   padding-right: 20px;
+  text-align: justify;
 }
 
 .tm-project-name {
@@ -536,11 +550,11 @@ p, address {
 }
 
 .tm-social-link {
-  color: #626364;
+  color: rgb(27,73,132);
   display: inline-block;
   border-radius: 1px;
   background-color: transparent;
-  font-size: 1.3rem;
+  font-size: 1.0rem;
   text-decoration: none;
   width: 40px;
   height: 40px;
@@ -549,8 +563,8 @@ p, address {
 }
 
 .tm-social-link:hover {
-  color: white;
-  background-color: #626364;
+  font-size: 110%;
+  font-weight: bold;
 }
 
 .tm-social-icon {
