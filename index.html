@@ -50,9 +50,44 @@ https://templatemo.com/tm-539-simple-house
 				<p class="col-12 text-center">Total 3 HTML pages are included in this template. Header image has a parallax effect. You can feel free to download, edit and use this TemplateMo layout for your commercial or non-commercial websites.</p>
 			</header>
 			
-			<!-- Gallery -->
-			<div class="row tm-gallery">
-				<!-- gallery page 1 -->
+		</main>
+
+		<div class="tm-container-inner tm-featured-image">
+			<div class="row">
+				<div class="col-12">
+					<div class="placeholder-2">
+						<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/home_back.jpg"></div>		
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer class="tm-footer text-center">
+			<p>Design Template : &copy; 2020 Simple House 
+            
+            | <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			// Handle click on paging links
+			$('.tm-paging-link').click(function(e){
+				e.preventDefault();
+				
+				var page = $(this).text().toLowerCase();
+				$('.tm-gallery-page').addClass('hidden');
+				$('#tm-gallery-page-' + page).removeClass('hidden');
+				$('.tm-paging-link').removeClass('active');
+				$(this).addClass("active");
+			});
+		});
+	</script>
+</body>
+</html>
+
+<!--        <div class="row tm-gallery">
 				<div id="tm-gallery-page-pizza" class="tm-gallery-page">
 					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 						<figure>
@@ -84,9 +119,7 @@ https://templatemo.com/tm-539-simple-house
 							</figcaption>
 						</figure>
 					</article>
-				</div> <!-- gallery page 1 -->
-				
-				<!-- gallery page 2 -->
+				</div>
 				<div id="tm-gallery-page-salad" class="tm-gallery-page hidden">
 					<article class="col-lg-3 col-md-4 col-sm-6 col-12 tm-gallery-item">
 						<figure>
@@ -98,42 +131,5 @@ https://templatemo.com/tm-539-simple-house
 							</figcaption>
 						</figure>
 					</article>
-				</div> <!-- gallery page 2 -->
-			</div>
-
-			<div class="tm-container-inner tm-featured-image">
-				<div class="row">
-					<div class="col-12">
-						<div class="placeholder-2">
-							<div class="parallax-window-2" data-parallax="scroll" data-image-src="img/home_back_stretch.jpg"></div>		
-						</div>
-					</div>
-				</div>
-			</div>
-
-		</main>
-
-		<footer class="tm-footer text-center">
-			<p>Design Template : &copy; 2020 Simple House 
-            
-            | <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
-		</footer>
-	</div>
-	<script src="js/jquery.min.js"></script>
-	<script src="js/parallax.min.js"></script>
-	<script>
-		$(document).ready(function(){
-			// Handle click on paging links
-			$('.tm-paging-link').click(function(e){
-				e.preventDefault();
-				
-				var page = $(this).text().toLowerCase();
-				$('.tm-gallery-page').addClass('hidden');
-				$('#tm-gallery-page-' + page).removeClass('hidden');
-				$('.tm-paging-link').removeClass('active');
-				$(this).addClass("active");
-			});
-		});
-	</script>
-</body>
-</html>
+				</div> 
+			</div>-->
