@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Sachi Angle : Contact Page</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet" />
+    <link href="css/all.min.css" rel="stylesheet" />
+	<link href="css/templatemo-style.css" rel="stylesheet" />
+</head>
+<!--
+
+Simple House
+
+https://templatemo.com/tm-539-simple-house
+
+-->
+<body> 
+
+	<div class="container">
+	<!-- Top box -->
+		<!-- Logo & Site Name -->
+		<div class="placeholder">
+			<div class="parallax-window" data-parallax="scroll" data-image-src="img/home_back_stretch.jpg">
+			</div>
+		</div>
+
+		<nav class="col-md-6 col-12 tm-nav">
+			<ul class="tm-nav-outer-ul">
+				<li class="tm-nav-outer-li">
+					<a href="mailto:sva22@cornell.edu" class="tm-contact-link">sva22@cornell.edu</a>
+				</li>
+				<li class="tm-nav-outer-li">
+					<ul class="tm-nav-ul">
+						<li class="tm-nav-li"><a href="index.html" class="tm-nav-link">Home</a></li>
+						<li class="tm-nav-li"><a href="projects.html" class="tm-nav-link">Projects</a></li>
+						<li class="tm-nav-li"><a href="documents/Sachi_Angle_Resume.pdf" class="tm-nav-link">Resume</a></li>
+						<li class="tm-nav-li"><a href="blog.html" class="tm-nav-link">Blog</a></li>
+						<li class="tm-nav-li"><a href="gallery.html" class="tm-nav-link active">Gallery</a></li>
+					</ul>
+				</li>
+		</nav>
+		<main>
+			<header class="row tm-welcome-section">
+				<h2 class="col-12 text-center tm-section-title">Welcome to my world!</h2>
+				<p class="col-12 text-center">You may use <a rel="nofollow" href="https://www.ltcclock.com/downloads/simple-contact-form/" target="_blank">Simple Contact Form</a> to send email to your inbox. You can modify and use this template for your website. Header image has a parallax effect. Total 3 HTML pages included in this template.</p>
+			</header>
+
+			
+		</main>
+
+		<footer class="tm-footer text-center">
+			<p>Design Template : &copy; 2020 Simple House 
+            
+            | <a rel="nofollow" href="https://templatemo.com">TemplateMo</a></p>
+		</footer>
+	</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.min.js"></script>
+	<script>
+		$(document).ready(function(){
+			var acc = document.getElementsByClassName("accordion");
+			var i;
+			
+			for (i = 0; i < acc.length; i++) {
+			  acc[i].addEventListener("click", function() {
+			    this.classList.toggle("active");
+			    var panel = this.nextElementSibling;
+			    if (panel.style.maxHeight) {
+			      panel.style.maxHeight = null;
+			    } else {
+			      panel.style.maxHeight = panel.scrollHeight + "px";
+			    }
+			  });
+			}	
+		});
+	</script>
+</body>
+</html>
