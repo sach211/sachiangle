@@ -299,6 +299,20 @@ p, address {
   width: 100%;
 }
 
+.tm-about-ul {
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+}
+
+.tm-about-dates {
+  font-weight: bold;
+}
+
+.tm-about-desc {
+  color: #807168;
+}
+
 .tm-nav-li {
   list-style: none;
   display: block;
@@ -313,6 +327,14 @@ p, address {
   margin-bottom: 0;
   padding-right: 100px;
   padding-left: 0px;
+}
+
+.tm-about-li {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding-right: 25px;
+  padding-left: 25px;
 }
 
 @media (max-width: 991px) {
@@ -523,6 +545,11 @@ p, address {
 .tm-project-description {
   padding-left: 20px;
   padding-right: 20px;
+  text-align: justify;
+}
+
+.tm-about-para {
+  position: relative;
   text-align: justify;
 }
 
