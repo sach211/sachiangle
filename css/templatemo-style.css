@@ -291,7 +291,20 @@ p, address {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  margin-left: 800px;
+  margin-left: 500px;
+}
+
+.tm-nav-outer-ul {
+  display: flex;
+  width: 100%;
+}
+
+.tm-nav-outer-li {
+  list-style: none;
+  display: block;
+  margin-bottom: 0;
+  padding-right: 25px;
+  padding-left: 40px;
 }
 
 .tm-proj-ul {
@@ -781,6 +794,7 @@ address {
   color: #626364;
   margin-bottom: 25px;
   text-decoration: none;
+  font-weight: 550;
 }
 
 .tm-contact-social {
