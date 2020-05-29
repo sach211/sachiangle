@@ -291,7 +291,6 @@ p, address {
   display: flex;
   justify-content: flex-end;
   width: 100%;
-  margin-left: 400px;
 }
 
 .tm-nav-outer-ul {
