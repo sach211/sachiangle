@@ -291,6 +291,7 @@ p, address {
   display: flex;
   justify-content: flex-end;
   width: 100%;
+  float: right;
 }
 
 .tm-nav-outer-ul {
@@ -331,6 +332,7 @@ p, address {
   margin-bottom: 0;
   padding-right: 25px;
   padding-left: 25px;
+  float: right;
 }
 
 .tm-proj-li {
@@ -395,6 +397,7 @@ p, address {
 
 .tm-gallery-description {
   font-size: 0.95rem;
+  margin-left: 40px;
 }
 
 .tm-section,
@@ -446,11 +449,30 @@ p, address {
   margin-bottom: 20px;
 }
 
+.gallery-landscape-img {
+  height: 400px;
+  width: 550px;
+}
+
+.gallery-potrait-img {
+  height: 550px;
+  width: 450px;
+}
+
+.gallery-img-layout {
+  display: flex;
+  align-items: center;
+  margin-left: 200px;
+  margin-right: 200px;
+  margin-bottom: 50px;
+}
+
 .tm-gallery-title {
   font-size: 1.3rem;
   font-weight: 400;
   color: #1A6692;
   margin-bottom: 15px;
+  margin-left: 40px;
 }
 
 .tm-gallery-description {
@@ -461,6 +483,7 @@ p, address {
   font-size: 1.25rem;
   color: #2F956D;
   margin-bottom: 60px;
+  margin-left: 40px;
 }
 
 .tm-paging-links {
