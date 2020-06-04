@@ -941,7 +941,7 @@ address {
 }
 
 .gallery_nav {
-  visibility: visible;
+  visibility: hidden;
 }
 
 .project_nav {
