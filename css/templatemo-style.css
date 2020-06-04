@@ -283,8 +283,8 @@ p, address {
 }
 
 .tm-nav {
-  text-align: right;
   margin-top: 10px;
+  display: flex;
 }
 
 .tm-nav-ul {
@@ -294,15 +294,16 @@ p, address {
   float: right;
 }
 
-.tm-nav-outer-ul {
-  display: flex;
+.tm-nav-outer-ul { 
+  list-style: none;
   width: 100%;
 }
 
 .tm-nav-outer-li {
   list-style: none;
-  display: block;
-  margin-bottom: 0;
+  float: left;
+  display: inline-block;
+  margin-bottom: 25px;
   padding-right: 25px;
   padding-left: 40px;
 }
@@ -817,6 +818,7 @@ address {
   margin-bottom: 25px;
   text-decoration: none;
   font-weight: 550;
+  margin-left: 15px;
 }
 
 .tm-contact-social {
