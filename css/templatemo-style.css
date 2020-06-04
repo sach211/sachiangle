@@ -613,7 +613,7 @@ p, address {
 }
 
 .tm-social-link {
-  color: rgb(27,73,132);
+  color: rgb(66,139,197);
   display: inline-block;
   border-radius: 1px;
   background-color: transparent;
@@ -941,7 +941,7 @@ address {
 }
 
 .gallery_nav {
-  visibility: hidden;
+  visibility: visible;
 }
 
 .project_nav {
