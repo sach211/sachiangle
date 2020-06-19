@@ -884,6 +884,11 @@ address {
     display: block;
 }
 
+.quillCoverPhoto-formatting {
+  width: 1600px;
+  height: 600px;
+}
+
 .blogThumbnail-formatting {
   width: 700px;
   height: 375px;
