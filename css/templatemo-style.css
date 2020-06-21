@@ -340,7 +340,7 @@ p, address {
   display: block;
   margin-bottom: 0;
   padding-right: 25px;
-  padding-left: 25px;
+  padding-left: 2vh;
   float: right;
   font-size: 2vh;
 }
