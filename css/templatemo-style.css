@@ -298,7 +298,6 @@ p, address {
 
 .tm-nav-outer-ul { 
   list-style: none;
-  width: 100%;
 }
 
 .tm-nav-outer-li {
@@ -340,9 +339,9 @@ p, address {
   display: block;
   margin-bottom: 0;
   padding-right: 25px;
-  padding-left: 2vh;
+  padding-left: 1vw;
   float: right;
-  font-size: 2vh;
+  font-size: 1vw;
 }
 
 .tm-proj-li {
@@ -840,8 +839,8 @@ address {
   margin-bottom: 25px;
   text-decoration: none;
   font-weight: 550;
-  margin-left: 15px;
-  font-size: 2vh;
+  margin-left: 1vw;
+  font-size: 1vw;
 }
 
 .tm-contact-social {
