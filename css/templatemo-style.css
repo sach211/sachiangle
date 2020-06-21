@@ -338,10 +338,10 @@ p, address {
   list-style: none;
   display: block;
   margin-bottom: 0;
-  padding-right: 25px;
-  padding-left: 1vh;
+  padding-right: 2vh;
+  padding-left: 2vh;
   float: right;
-  font-size: 1vh;
+  font-size: 1.5vh;
 }
 
 .tm-proj-li {
@@ -839,8 +839,8 @@ address {
   margin-bottom: 25px;
   text-decoration: none;
   font-weight: 550;
-  margin-left: 1vh;
-  font-size: 1vh;
+  margin-left: 2vh;
+  font-size: 1.5vh;
 }
 
 .tm-contact-social {
