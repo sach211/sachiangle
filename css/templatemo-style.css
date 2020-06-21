@@ -887,8 +887,8 @@ address {
 }
 
 .quillCoverPhoto-formatting {
-  width: 1600px;
-  height: 600px;
+  width: 100vw;
+  height: 55vh;
 }
 
 .blogThumbnail-formatting {
