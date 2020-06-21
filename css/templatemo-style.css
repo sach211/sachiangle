@@ -339,9 +339,9 @@ p, address {
   display: block;
   margin-bottom: 0;
   padding-right: 25px;
-  padding-left: 1vw;
+  padding-left: 1hw;
   float: right;
-  font-size: 1vw;
+  font-size: 1vh;
 }
 
 .tm-proj-li {
@@ -839,8 +839,8 @@ address {
   margin-bottom: 25px;
   text-decoration: none;
   font-weight: 550;
-  margin-left: 1vw;
-  font-size: 1vw;
+  margin-left: 1vh;
+  font-size: 1vh;
 }
 
 .tm-contact-social {
