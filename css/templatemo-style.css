@@ -342,6 +342,7 @@ p, address {
   padding-right: 25px;
   padding-left: 25px;
   float: right;
+  font-size: 2vh;
 }
 
 .tm-proj-li {
@@ -840,6 +841,7 @@ address {
   text-decoration: none;
   font-weight: 550;
   margin-left: 15px;
+  font-size: 2vh;
 }
 
 .tm-contact-social {
