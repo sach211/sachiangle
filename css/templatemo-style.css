@@ -586,14 +586,6 @@ p, address {
   align-items: center;
   justify-content: center;
   margin-bottom: 60px;
-  overflow-x:hidden;
-  position: relative;
-}
-
-@media (min-width: 420px) {
-  .tm-project {
-    flex-direction: row;
-  }
 }
 
 .tm-project-description {
