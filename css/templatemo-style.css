@@ -377,7 +377,7 @@ p, address {
 }
 
 .tm-nav-link {
-  color: pink;
+  color: yellow;
   text-decoration: none;
   padding-bottom: 10px;
 }
@@ -468,13 +468,13 @@ p, address {
 }
 
 .gallery-landscape-img {
-  height: 400px;
-  width: 550px;
+  height: 30vw;
+  width: 40vw;
 }
 
 .gallery-potrait-img {
-  height: 550px;
-  width: 450px;
+  height: 40vw;
+  width: 30vw;
 }
 
 .gallery-img-layout {
@@ -483,6 +483,15 @@ p, address {
   margin-left: 200px;
   margin-right: 200px;
   margin-bottom: 50px;
+}
+
+@media (max-width: 768px) {
+  .gallery-img-layout {
+    flex-wrap: wrap;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+  }
 }
 
 .tm-gallery-title {
