@@ -376,7 +376,7 @@ p, address {
 }
 
 .tm-nav-link {
-  color: pink;
+  color: yellowgreen;
   text-decoration: none;
   padding-bottom: 10px;
 }
@@ -889,7 +889,7 @@ address {
   max-width: 700px;
   max-height: 375px;
   width: 80vw;
-  height: 50vh;
+  height: 40vh;
 }
 
 /*.blogThumbnail-formatting:hover {
