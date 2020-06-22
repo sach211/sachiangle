@@ -311,6 +311,7 @@ p, address {
 
 .tm-proj-ul {
   display: flex;
+  flex-wrap: wrap;
   width: 100%;
 }
 
@@ -376,7 +377,7 @@ p, address {
 }
 
 .tm-nav-link {
-  color: yellowgreen;
+  color: pink;
   text-decoration: none;
   padding-bottom: 10px;
 }
