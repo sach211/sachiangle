@@ -348,7 +348,7 @@ p, address {
   list-style: none;
   display: block;
   margin-bottom: 0;
-  padding-right: 5vh;
+  margin-right: 7vh;
   padding-left: 0px;
 }
 
@@ -376,7 +376,7 @@ p, address {
 }
 
 .tm-nav-link {
-  color: pink;
+  color: green;
   text-decoration: none;
   padding-bottom: 10px;
 }
