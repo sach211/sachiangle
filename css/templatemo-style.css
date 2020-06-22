@@ -488,7 +488,7 @@ p, address {
 @media (max-width: 768px) {
   .gallery-img-layout {
     flex-wrap: wrap;
-    margin-left: 100px;
+    margin-left: 10vw;
     margin-right: 20px;
     margin-bottom: 20px;
   }
