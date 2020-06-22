@@ -376,7 +376,7 @@ p, address {
 }
 
 .tm-nav-link {
-  color: green;
+  color: yellow;
   text-decoration: none;
   padding-bottom: 10px;
 }
@@ -886,14 +886,16 @@ address {
 }
 
 .blogThumbnail-formatting {
-  width: 700px;
-  height: 375px;
+  max-width: 700px;
+  max-height: 375px;
+  width: 80vh;
+  height: 50vh;
 }
 
-.blogThumbnail-formatting:hover {
+/*.blogThumbnail-formatting:hover {
   width: 800px;
   height: 425px;
-}
+}*/
 
 /* https://www.w3schools.com/howto/howto_js_accordion.asp */
 /* Style the buttons that are used to open and close the accordion panel */
