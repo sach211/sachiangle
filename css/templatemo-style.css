@@ -489,7 +489,7 @@ p, address {
   .gallery-img-layout {
     flex-wrap: wrap;
     margin-left: 10vw;
-    margin-right: 20px;
+    margin-right: 10vw;
     margin-bottom: 20px;
   }
   .gallery-landscape-img{
@@ -499,6 +499,13 @@ p, address {
   .gallery-potrait-img {
     height: 80vw;
     width: 60vw;
+  }
+  .tm-about-dates {
+    font-size: 80%;
+    margin-left: 40vw;
+  }
+  .tm-about-ul {
+    flex-wrap: wrap;
   }
 }
 
