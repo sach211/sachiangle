@@ -319,6 +319,11 @@ p, address {
   display: flex;
   width: 100%;
   margin-bottom: 50px;
+  flex-wrap: wrap;
+}
+
+.tm-about-headings-ul {
+  margin-bottom: 10px;
 }
 
 .tm-blog-ul {
@@ -329,6 +334,16 @@ p, address {
 
 .tm-about-dates {
   font-weight: bold;
+  font-size: 80%;
+}
+
+.tm-about-title {
+  font-weight: bold;
+}
+
+.tm-about-headings-li {
+  font-weight: bold;
+  display: flex;
 }
 
 .tm-about-desc {
@@ -501,6 +516,9 @@ p, address {
     width: 60vw;
   }
   .tm-about-dates {
+    font-size: 60%;
+  }
+  .tm-about-title {
     font-size: 80%;
   }
   .tm-about-ul {
@@ -621,17 +639,17 @@ p, address {
 .tm-project-description {
   padding-left: 20px;
   padding-right: 20px;
-  text-align: justify;
+  text-align: left;
 }
 
 .tm-about-para {
   position: relative;
-  text-align: justify;
+  text-align: left;
 }
 
 .tm-blog-main {
   position: relative;
-  text-align: justify;
+  text-align: center;
 }
 
 .tm-project-name {
